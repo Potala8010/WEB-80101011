@@ -1,0 +1,501 @@
+/*
+    SSL证书服务首页css
+*/
+
+/**************banner 开始**************/
+.banner{
+    height: 480px;
+    background: url("/statics/images/webssl/ssl-banner.jpg") no-repeat top center;
+}
+/*标题*/
+.banner .banner-title{
+    padding-top: 70px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff799;
+}
+/*文字*/
+.banner .banner-txt{
+    padding-top: 30px;
+    line-height: 36px;
+    font-size: 20px;
+    color: #ffffff;
+}
+.banner .banner-btn{
+    padding-top: 60px;
+}
+/*按钮*/
+.banner .banner-btn a.apply-btn{
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    background: #5ab34e;
+    font-size: 20px;
+    font-style: italic;
+    color: #cdfff7;
+    text-align: center;
+}
+.banner .banner-btn a.txt-btn{
+    padding-left: 14px;
+    font-size: 16px;
+    font-family: "微软雅黑 Light";
+    color: #fff154;
+    vertical-align: bottom;
+}
+
+/**************banner 结束**************/
+
+/**************产品概述 开始**************/
+.ssl-introduce{
+    margin-top: 40px;
+    padding: 0 50px 50px 380px;
+    background: url("/statics/images/webssl/ssl-img.jpg") no-repeat 0 10px;
+}
+/*标题*/
+.ssl-introduce .si-title{
+    padding-left: 6px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #eaeaea;
+    font-size: 24px;
+    color: #1861d0;
+    position: relative;
+}
+.ssl-introduce .si-title::before{
+    content: "";
+    display: inline-block;
+    width: 152px;
+    height: 5px;
+    background: url("/statics/images/webssl/ssl-triangle.jpg") repeat-x;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+/*文字*/
+.ssl-introduce p{
+    line-height: 26px;
+    font-size: 14px;
+    color: #2d2d2d;
+}
+/*合作品牌*/
+.ssl-introduce .si-partner{
+    padding-top: 20px;
+}
+/*标题*/
+.ssl-introduce .si-partner .sp-title{
+    text-align: center;
+}
+.ssl-introduce .si-partner .sp-title span{
+    display: inline-block;
+    font-size: 18px;
+    color: #3a9dcb;
+    text-align: center;
+    position: relative;
+}
+.ssl-introduce .si-partner .sp-title span::before{
+    content: "";
+    display: inline-block;
+    width: 230px;
+    height: 8px;
+    background: url("/statics/images/webssl/ssl-icon.png") no-repeat 0 0;
+    position: absolute;
+    top: 12px;
+    right: 240px;
+}
+.ssl-introduce .si-partner .sp-title span::after{
+    content: "";
+    display: inline-block;
+    width: 230px;
+    height: 8px;
+    background: url("/statics/images/webssl/ssl-icon.png") no-repeat -242px 0;
+    position: absolute;
+    top: 12px;
+    left: 240px;
+}
+.ssl-introduce .si-partner .sp-list{
+    padding-top: 20px;
+    margin: 0 -30px;
+}
+.ssl-introduce .si-partner .sp-list li{
+    float: left;
+    width: 33.3333333333%;
+}
+/*图片*/
+.ssl-introduce .si-partner .sp-list .sl-img{
+    margin: 0 auto;
+    width: 166px;
+    min-height: 46px;
+    background: url("/statics/images/webssl/ssl-icon.png") no-repeat;
+}
+.ssl-introduce .si-partner .sp-list .sl-img1{
+    width: 182px;
+    background-position: 0px -10px;
+}
+.ssl-introduce .si-partner .sp-list .sl-img2{
+    background-position: -191px -16px;
+}
+.ssl-introduce .si-partner .sp-list .sl-img3{
+    background-position: -366px -12px;
+}
+.ssl-introduce .si-partner .sp-list p{
+    padding: 10px 10px 0;
+    line-height: 24px;
+    color: #7d7d7d;
+    text-align: center;
+}
+/**************产品概述 结束**************/
+
+/**************产品优势 开始**************/
+.ssl-advantage{
+    padding-bottom: 44px;
+    background: #edfbff;
+}
+/*公共标题 开始*/
+.ssl-title{
+    padding-top: 20px;
+    text-align: center;
+}
+.ssl-title span{
+    display: inline-block;
+    font-size: 24px;
+    color: #1861d0;
+    text-align: center;
+    position: relative;
+}
+.ssl-title span::before{
+    content: "";
+    display: inline-block;
+    width: 130px;
+    height: 5px;
+    background: url("/statics/images/webssl/ssl-triangle.jpg") repeat-x;
+    position: absolute;
+    top: 18px;
+    right: 140px;
+}
+.ssl-title span::after{
+    content: "";
+    display: inline-block;
+    width: 130px;
+    height: 5px;
+    background: url("/statics/images/webssl/ssl-triangle.jpg") repeat-x;
+    position: absolute;
+    top: 18px;
+    left: 140px;
+}
+/*公共标题 结束*/
+/*列表*/
+.ssl-advantage .sa-list{
+    margin: 0 20px;
+}
+.ssl-advantage .sa-list li{
+    padding-top: 40px;
+    float: left;
+    width: 540px;
+}
+.ssl-advantage .sa-list li:nth-child(2n-1){
+    margin-right: 70px;
+}
+.ssl-advantage .sa-list .sa-img{
+    float: left;
+    margin-right: 20px;
+    min-width: 80px;
+    width: 66px;
+    height: 83px;
+    background: url("/statics/images/webssl/ssl-icon.png") no-repeat;
+}
+.ssl-advantage .sa-list .sa-img1{
+    background-position: 8px -71px;
+}
+.ssl-advantage .sa-list .sa-img2{
+    width: 74px;
+    height: 74px;
+    background-position: -72px -71px;
+}
+.ssl-advantage .sa-list .sa-img3{
+    width: 64px;
+    height: 60px;
+    background-position: -152px -71px;
+}
+.ssl-advantage .sa-list .sa-img4{
+    width: 80px;
+    height: 42px;
+    background-position: -234px -72px;
+}
+.ssl-advantage .sa-list .sa-txt{
+    line-height: 24px;
+    font-size: 14px;
+    color: #9b9b9b;
+    overflow: hidden;
+}
+.ssl-advantage .sa-list .sa-txt p{
+    padding-bottom: 2px;
+    font-size: 16px;
+    color: #3b3b3b;
+}
+/**************产品优势 结束**************/
+
+/**************产品版本 开始**************/
+.ssl-edition{
+    padding-bottom: 30px;
+}
+.ssl-edition .se-list{
+    margin: 40px 20px 20px;
+}
+.ssl-edition .se-list li{
+    float: left;
+    margin-right: 71px;
+    width: 336px;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+    color: #fff;
+    background: #4fc483;
+    box-shadow: 0px 2px 10px 0px rgba(53, 53, 53, 0.15);
+}
+.ssl-edition .se-list li:nth-child(1){
+    background: #3b87d4;
+}
+.ssl-edition .se-list li:nth-child(3){
+    margin-right: 0;
+    background: #8072af;
+}
+/*DV、OV、EV*/
+.ssl-edition .se-list .se-title1{
+    padding-top: 10px;
+    font-size: 48px;
+    color: #f9fb57;
+}
+.ssl-edition .se-list li:nth-child(1) .se-title1{
+    color: #adfffa;
+}
+.ssl-edition .se-list li:nth-child(3) .se-title1{
+    color: #f2daff;
+}
+/*证书类型*/
+.ssl-edition .se-list .se-title2{
+    margin-top: -10px;
+    font-size: 24px;
+}
+/*五角星*/
+.ssl-edition .se-list .se-star{
+    margin: 2px 0 10px 120px;
+    width: 97px;
+    height: 12px;
+    background: url("/statics/images/webssl/ssl-icon.png") no-repeat -436px -305px;
+    position: relative;
+}
+.ssl-edition .se-list .se-star.yellow-star3:before{
+    content: "";
+    display: inline-block;
+    width: 54px;
+    height: 12px;
+    background: url("/statics/images/webssl/ssl-icon.png") no-repeat -436px -288px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.ssl-edition .se-list .se-star.yellow-star4:before{
+    content: "";
+    display: inline-block;
+    width: 76px;
+    height: 12px;
+    background: url("/statics/images/webssl/ssl-icon.png") no-repeat -436px -288px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.ssl-edition .se-list .se-star.yellow-star5:before{
+    content: "";
+    display: inline-block;
+    width: 97px;
+    height: 12px;
+    background: url("/statics/images/webssl/ssl-icon.png") no-repeat -436px -288px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/*适用类型*/
+.ssl-edition .se-list .se-explain{
+    margin: 0 30px;
+    line-height: 30px;
+    border-top: 1px solid #a5e3c0;
+    font-size: 14px;
+    color: #cfffcf;
+}
+.ssl-edition .se-list li:nth-child(1) .se-explain{
+    border-top-color: #51bcf3;
+    color: #a8f6ff;
+}
+.ssl-edition .se-list li:nth-child(3) .se-explain{
+    border-top-color: #a191d8;
+    color: #eee9ff;
+}
+/*按钮*/
+.ssl-edition .se-list .se-btn{
+    margin: 30px 0;
+    display: inline-block;
+    width: 228px;
+    height: 48px;
+    line-height: 48px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #fff;
+}
+/*文字*/
+.ssl-edition .se-list .se-txt{
+    padding: 24px 0 24px 100px;
+    background: #fff;
+    text-align: left;
+}
+.ssl-edition .se-list .se-txt p{
+    font-size: 14px;
+    line-height: 30px;
+    color: #595959;
+    position: relative;
+}
+.ssl-edition .se-list .se-txt p:before{
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background: #cdd7e1;
+    border-radius: 6px;
+    position: absolute;
+    top: 12px;
+    left: -16px;
+}
+/*激活*/
+.ssl-edition .se-list li:hover .se-btn{
+    background: #46aa72;
+}
+.ssl-edition .se-list li:nth-child(1):hover .se-btn{
+    background: #2fa0da;
+}
+.ssl-edition .se-list li:nth-child(3):hover .se-btn{
+    background: #9486c6;
+}
+/**************产品版本 结束**************/
+
+/**************应用场景 开始**************/
+.ssl-scene{
+    padding-bottom: 70px;
+    background: #fffcf0;
+}
+.ssl-scene .ss-list{
+    margin: 0 10px;
+}
+.ssl-scene .ss-list li{
+    padding-top: 40px;
+    clear: both;
+}
+/*图标*/
+.ssl-scene .ss-list .ss-img{
+    float: left;
+    margin-right: 30px;
+    width: 184px;
+    text-align: center;
+}
+.ssl-scene .ss-list .ss-img i{
+    display: inline-block;
+    background: url("/statics/images/webssl/ssl-icon.png") no-repeat;
+}
+.ssl-scene .ss-list .ss-img .ss-img1{
+    width: 172px;
+    height: 152px;
+    background-position: 0 -164px;
+}
+.ssl-scene .ss-list .ss-img .ss-img2{
+    width: 184px;
+    height: 85px;
+    background-position: -349px -194px;
+}
+.ssl-scene .ss-list .ss-img .ss-img3{
+    width: 154px;
+    height: 108px;
+    background-position: -377px -74px;
+}
+.ssl-scene .ss-list .ss-img .ss-img4{
+    width: 157px;
+    height: 152px;
+    background-position: -181px -164px;
+}
+/*文字*/
+.ssl-scene .ss-list .ss-txt{
+    overflow: hidden;
+    line-height: 24px;
+    font-size: 14px;
+    color: #666666;
+}
+/*小标题*/
+.ssl-scene .ss-list .ss-txt h5{
+    padding-bottom: 10px;
+    font-size: 18px;
+    color: #3b3b3b;
+}
+/**************应用场景 结束**************/
+
+/**************帮助文档 开始**************/
+.ssl-help{
+    padding: 20px 0 40px;
+}
+.ssl-help .sh-title{
+    padding-left: 34px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #eaeaea;
+    font-size: 20px;
+    color: #3b3b3b;
+    position: relative;
+}
+
+.ssl-help .sh-title::before {
+    content: "";
+    display: inline-block;
+    width: 152px;
+    height: 5px;
+    background: url("/statics/images/webssl/ssl-triangle.jpg") repeat-x;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+/*更多问题*/
+.ssl-help .sh-title .more{
+    float: right;
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    background: #eaf0ff;
+    font-size: 12px;
+    color: #575757;
+    font-family: "新宋体";
+    text-align: center;
+}
+/*文字*/
+.ssl-help .sh-txt{
+    padding: 40px 20px 0;
+}
+.ssl-help .sh-txt li{
+    float: left;
+    width: 25%;
+    line-height: 36px;
+    font-size: 12px;
+    color: #575757;
+}
+/**************帮助文档 结束**************/
+
+@media screen and (max-width: 1206px) {
+    /*产品优势*/
+    .ssl-advantage .sa-list li{
+        width: 440px;
+    }
+    /*产品版本*/
+    .ssl-edition .se-list li {
+        margin-right: 21px;
+        width: 302px;
+    }
+    /*五角星*/
+    .ssl-edition .se-list .se-star{
+        margin: 2px 0 10px 100px;
+    }
+
+}
