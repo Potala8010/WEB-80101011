@@ -1,0 +1,152 @@
+.ddos-banner{background:url('/statics/images/banner/ddos/ddos-1.jpg') no-repeat center center; height: 280px; width: 100%; color: #fff; }
+.ddos-banner h1{ font-weight: bold; font-size: 44px; color: #fff;}
+.ddos-banner .ddos-h1{ background: url("/statics/images/ddos/ddos-icon.png") no-repeat -316px 0; width: 54px; height: 54px; display: inline-block; vertical-align: bottom; margin-right: 10px;}
+.ddos-banner p{ font-size: 14px; width: 700px; line-height: 27px;}
+.ddos-banner .ddos-buy{ display: inline-block; width: 150px; height: 40px; line-height: 40px; color: #fff; background-color: #358de2; text-align: center; font-size: 16px; margin-top: 15px;}
+.ddos-banner .ddos-buy:hover{ background-color: #dc8e28;}
+.red{color: red;}
+.pb-60{padding-bottom: 60px;}
+/*
+table*/
+.manager-table {
+	margin-top:15px;
+	text-align:center;
+	border:1px solid #ececec;
+	background-color: #fff;
+}
+.fixed-table {
+	table-layout:fixed
+}
+.manager-table tr {
+	height:50px
+}
+.manager-table tr th {
+	background:#dfefff;
+	border-bottom:1px solid #ececec;
+	border-top:1px solid #ececec;
+	font-size:16px;
+	font-weight:700;
+	color:#333333
+}
+.manager-table tr td {
+	border:1px solid #ececec;
+	font-size:14px;
+	color:#4e4e4e;
+	padding:8px;
+	word-break:break-all
+}
+.manager-table tr td.text-overflow {
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap
+}
+.manager-table tr .left {
+	width:120px;
+	font-size:14px;
+	color:#515151
+}
+.manager-table tr .mt-btn {
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+	width:auto;
+	padding:0 6px;
+	height:20px;
+	line-height:20px;
+	background:#f9fcff;
+	border:1px solid #b3d9ff;
+	border-radius:2px;
+	font-size:12px;
+	color:#3478bc;
+	text-align:center
+}
+
+/*
+table end*/
+
+
+/*intro-content*/
+.intro-content{background-color: #fff;}
+.cp-title {
+	padding-top:50px;
+	padding-bottom:6px;
+	border-bottom:1px solid #eaeaea
+}
+.cp-title span.intro-title {
+	font-size:20px;
+	color:#3b3b3b;
+	background:url(/statics/images/cloudhost/cp-title-line.jpg) repeat-x left bottom;
+	padding:0 20px 10px;
+}
+
+.cc-list li {
+	float: left;
+	width: 50%;
+}
+
+.cc-list .item .item-icon {
+	float: left;
+	margin-right: 10px;
+	display: inline-block;
+	width: 79px;
+	height: 79px;
+	background: url("/statics/images/ddos/ddos-icon.png") no-repeat;
+}
+.cc-list .item .item-icon1{background-position: 0px 0px;}
+.cc-list .item .item-icon2{background-position: -79px 0px;}
+.cc-list .item .item-icon3{background-position: -158px 0px;}
+.cc-list .item .item-icon4{background-position: -237px 0px;}
+.cc-list .item .item-txt {
+	line-height: 27px;
+	font-size: 14px;
+	color: #868686;
+	overflow: hidden;
+}
+.cc-list .item .item-txt h5 {
+	padding-bottom: 6px;
+	font-size: 16px;
+	color: #333;
+	margin-bottom: 8px;
+}
+
+.advant-list td{padding: 20px;}
+.advant-list td.advant-height{ height: 20px;padding:0;}
+.advant-list .advant-icon{background: url("/statics/images/ddos/ddos-icon.png") no-repeat; display: inline-block;}
+.advant-list .advant-icon1{ width: 40px; height: 44px; background-position: 0 -79px;}
+.advant-list .advant-icon2{ width: 40px; height: 44px; background-position: -40px -79px;}
+.advant-list .advant-icon3{ width: 41px; height: 47px; background-position: -80px -79px;}
+.advant-list .advant-icon4{ width: 39px; height: 37px; background-position: -121px -79px;}
+.advant-list .advant-bg1{background-color: #a4cf37;border-top-left-radius: 5px; border-bottom-left-radius: 5px;}
+.advant-list .advant-bg2{background-color: #45a6ad;border-top-left-radius: 5px; border-bottom-left-radius: 5px;}
+.advant-list .advant-bg3{background-color: #faa74b;border-top-left-radius: 5px; border-bottom-left-radius: 5px;}
+.advant-list .advant-bg4{background-color: #667eaf;border-top-left-radius: 5px; border-bottom-left-radius: 5px;}
+.advant-list .advant-graybg{ background-color: #f8f8f8; font-size: 16px; border-bottom-right-radius: 5px; border-top-right-radius: 5px;}
+.left-img{width: 40%;}
+.right-word{width: 60%; font-size: 16px;}
+
+.faq-list dt {
+	padding: 30px 0px 8px;
+	font-size: 16px;
+	color: #277CDF;
+}
+.faq-list dd {
+	 padding: 10px 0px 14px;
+	 line-height: 1.7;
+	 font-size: 14px;
+	 color: #7D7D7D;
+	 border-bottom: 1px dashed #D3D3D3;
+ }
+.faq-list dd.noborder{border: none;}
+.faq-btn {
+	display: block;
+	margin: 38px auto 30px;
+	width: 280px;
+	height: 50px;
+	line-height: 50px;
+	background: #EEE;
+	font-size: 14px;
+	color: #7B7B7B;
+	text-align: center;
+}
+.liucheng{ padding: 10px; line-height: 25px; font-size: 14px;}
+/*intro-content end*/

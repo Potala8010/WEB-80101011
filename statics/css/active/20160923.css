@@ -1,0 +1,41 @@
+//$(function () {
+//	$('.xhosting').hover(
+//		function() {
+//			$('.tcloud').removeClass("cloudbg");
+//			$(this).addClass('cloudbg');	
+//			$('.wdisplay2').removeClass("dis");
+//			$('.wdisplay').addClass('dis');
+//		
+//		}
+//	);
+//	
+//	$('.thosting').hover(
+//		function() {
+//			$('.tcloud').removeClass("cloudbg");
+//			$(this).addClass('cloudbg');	
+//			$('.wdisplay').removeClass("dis");
+//			$('.wdisplay2').addClass('dis');
+//		
+//		}
+//	);
+//	
+//});	
+//
+//    
+//
+//    
+
+    </script>
+    <style type="text/css">
+
+	.vstable table tr th { border:1px #dee6ee solid; color:#3d3d3d; font-size:16px; text-align:center; }
+.vstable table tr td { vertical-align:top; padding:20px 10px 20px 10px; border:1px #dee6ee solid; color:#666; }
+.vstitle {
+background:#edf1f5;
+
+}
+.vstable {
+padding: 0px 10px 0 10px;
+}
+.vscen2 strong{ font-size:12px; color: #333;;}
+div{ line-height:20px;}
