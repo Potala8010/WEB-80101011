@@ -1,3 +1,0 @@
-#QRWL
-User-agent: * 
-Disallow: /api
